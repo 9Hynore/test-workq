@@ -1,0 +1,268 @@
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url('ProximaNova-Bold.eot');
+  src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
+      url('ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+      url('ProximaNova-Bold.woff2') format('woff2'),
+      url('ProximaNova-Bold.woff') format('woff'),
+      url('ProximaNova-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+  @font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('ProximaNova-Regular.eot');
+    src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+        url('ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ProximaNova-Regular.woff2') format('woff2'),
+        url('ProximaNova-Regular.woff') format('woff'),
+        url('ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Lt';
+  src: url('ProximaNova-Semibold.eot');
+  src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'),
+      url('ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+      url('ProximaNova-Semibold.woff2') format('woff2'),
+      url('ProximaNova-Semibold.woff') format('woff'),
+      url('ProximaNova-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body{
+  font-family: 'Proxima Nova Rg' , sans-serif;
+}
+
+.conteiner{
+width: 1152px;
+margin: 0 auto;
+}
+
+.header{
+background: url(img/Bg.svg) no-repeat center top / cover;
+height: 100%;
+}
+
+.header_top{
+display: flex;
+justify-content: space-between;
+}
+
+.menu_button{
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.menu{
+  display: flex;
+  margin-top: 80px;
+  
+  justify-content: space-between;
+  width: 574px;
+  height: 26px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.logo{
+  margin-top: 32px; 
+}
+.menu_button-activ{
+border-bottom:3px solid #FF8B00 ;
+padding-left: 4px;
+padding-right: 4px;
+}
+.auth{
+color: #fff;
+padding-top: 129px;
+margin-left:82px;
+
+}
+
+.auth h1{
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 55px;
+  letter-spacing: -1.3px;
+  width: 552px;
+}
+
+.auth p{
+  padding-top: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -0.65px;
+}
+
+.header_mid{
+display: flex;
+
+}
+
+.twitter_img{
+  padding-top: 200px;
+  padding-left: 220px;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+padding-top: 203px;
+padding-left: 298px;
+margin-right: -151px;
+height: 293px;
+}
+
+ul {
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  display: inline;
+}
+
+.button_start a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 183px;
+  text-align: center;
+  line-height: 53px;
+  color: #fff;
+  background: #FF8B00;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.button_start{
+padding-left: 78px;
+}
+
+.button_start ul{
+  margin-top: 6px;
+}
+
+.button_find{
+color: #fff;
+margin-left: 48%;
+padding-top: 135px;
+padding-bottom: 50px;
+}
+
+.button_find h2{
+  font-size: 15px;
+  margin-left: -5%;
+  margin-bottom: 19px;
+}
+
+.button_find img{
+  cursor: pointer;
+}
+
+
+.data{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 183px;
+  padding-left: 346px;
+  padding-right: 355px;
+  color: #7050E5;
+}
+
+.data h1{
+  font-size: 60px;
+  text-align: center;
+}
+
+.data p{
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+}
