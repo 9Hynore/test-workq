@@ -117,13 +117,32 @@ body{
 }
 
 .conteiner{
-width: 1152px;
+max-width: 1152px;
 margin: 0 auto;
+}
+
+@media (max-width:1152px){
+  .conteiner{
+    max-width: 970px;
+  }
+}
+
+@media (max-width:992px){
+  .conteiner{
+    max-width: 750px;
+  }
+}
+
+@media (max-width:767px){
+  .conteiner{
+    max-width: none;
+  }
 }
 
 .header{
 background: url(img/Bg.svg) no-repeat center top / cover;
 height: 100%;
+max-width: 100%;
 }
 
 .header_top{
@@ -134,18 +153,22 @@ justify-content: space-between;
 .menu_button{
   color: #fff;
   text-decoration: none;
-
 }
+
+
 
 .menu{
   display: flex;
   margin-top: 80px;
-  
   justify-content: space-between;
-  width: 574px;
+  min-width: 574px;
   height: 26px;
   font-weight: bold;
   font-size: 15px;
+}
+
+.menu_button{
+
 }
 .logo{
   margin-top: 32px; 
@@ -158,8 +181,7 @@ padding-right: 4px;
 .auth{
 color: #fff;
 padding-top: 129px;
-margin-left:82px;
-
+margin-left: 7.15%;
 }
 
 .auth h1{
@@ -176,6 +198,7 @@ margin-left:82px;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: -0.65px;
+
 }
 
 .header_mid{
@@ -184,8 +207,8 @@ display: flex;
 }
 
 .twitter_img{
+  max-width: 100%;
   padding-top: 200px;
-  padding-left: 220px;
 }
 
 .item{
@@ -193,9 +216,10 @@ display: flex;
   flex-direction: column;
   justify-content: space-between;
 padding-top: 203px;
-padding-left: 298px;
-margin-right: -151px;
+margin-left: 40%;
+margin-right: -10%;
 height: 293px;
+
 }
 
 ul {
