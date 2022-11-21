@@ -319,6 +319,14 @@ body {
   justify-content: space-between;
 
 }
+
+.header__midle{
+max-width: 914px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+margin: 0 auto;
+}
 .auth {
   color: #fff;
   padding: 0;
@@ -327,21 +335,20 @@ body {
 .auth h1 {
   font-weight: bold;
   font-size: 55px;
-  letter-spacing: -1.3px;
+  line-height: 81px;
 }
 
 .auth p {
-  padding-top: 12px;
   font-weight: 600;
   font-size: 16px;
-  letter-spacing: -0.65px;
+  line-height: 29.7px;
 }
 
 .twitter_img {
   max-width: 100%;
   height: auto;
-  margin-left: 30px;
   margin-top: 84px;
+  margin-right: -8px;
 }
 
 .item {
@@ -366,9 +373,9 @@ li {
   outline: none;
   text-decoration: none;
   display: inline-block;
-  width: 183px;
+  width: 174px;
   text-align: center;
-  line-height: 53px;
+  line-height: 51px;
   color: #fff;
   background: #FF8B00;
   border-radius: 5px;
@@ -379,7 +386,10 @@ li {
 }
 
 .button_start {
-  padding-left: 78px;
+max-width:988px;
+width: 100%;
+margin: auto;
+padding-top: 7px;
 }
 
 .button_start ul {
@@ -389,35 +399,193 @@ li {
 .button_find {
   color: #fff;
   margin-left: 48%;
-  padding-bottom: 50px;
+  padding-top: 135px;
 }
 
 .button_find h2 {
   font-size: 15px;
-  margin-left: -5%;
-  margin-bottom: 19px;
+  margin-left: -3%;
+  margin-bottom: 16px;
 }
 
 .button_find img {
   cursor: pointer;
 }
 
-.main {
+/* -------------------------------------- */
+
+.achievements {
   display: flex;
   justify-content: space-between;
-  padding-top: 183px;
-  padding-left: 346px;
-  padding-right: 355px;
+  padding-top: 134px;
+  max-width: 912px;
+  width: 100%;
+  margin: 0 auto;
   color: #7050E5;
+  padding-bottom: 131px;
+  flex-wrap: wrap;
 }
 
-.main h1 {
+.achievements h1{
   font-size: 60px;
+  line-height: 68px;
   text-align: center;
 }
+.achievements div:nth-child(1){
+  max-width:257px ;
+  width: 100%;
+  }
+.achievements div:nth-child(2){
+max-width: 213px;
+width: 100%;
+margin-right: -3px;
+}
 
-.main p {
+.achievements div:nth-child(3){
+  margin-right: 11px;
+  max-width: 249px;
+  width: 100%;
+  }
+.achievements p{
+  font-weight: bold;
   font-size: 16px;
   text-transform: uppercase;
   text-align: center;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  padding-top: 13px;
+}
+/* -------------------------------------- */
+.main__description{
+  width: 100%;
+  background: #F8F8F8;
+  padding-bottom: 120px;
+}
+
+.description__content{
+max-width: 1006px;
+margin: 0 auto;
+}
+
+.item__main {
+}
+.description__top_block{
+  display: flex;
+  padding-top: 118px;
+  justify-content: end;
+}
+
+.description__header h1{
+font-size: 60px;
+color: #7050E5;
+font-weight: bold;
+line-height: 72px;
+padding-top: 25px;
+padding-right: 19px;
+}
+
+.main__cards {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 993px;
+  margin: 0 auto;
+}
+.card1 {
+  max-width: 271px;
+  margin-top:71px ;
+  justify-content: center;
+}
+.card1 .card-image{
+ margin-left: 40px;
+}
+
+.card2 {
+  max-width: 241px;
+  margin-top:71px ;
+}
+.card3 {
+  max-width: 281px;
+  margin-top:68px ;
+}
+.card3 .card-image{
+  margin-left: 58px;
+}
+.card3 .card__header{
+  margin-top: 27px;
+}
+.card4 {
+  max-width: 271px;
+  margin-top: 72px;
+
+}
+.card4 .card-image{
+margin-left: 59px;
+}
+.card4 .card__header{
+margin-top: 25px;
+margin-left: 3px;
+line-height: 20px;
+}
+.card4 .card__discription{
+margin-top: 6px;
+margin-left: 3px;
+}
+.card5 {
+  max-width: 241px; 
+  margin-top: 80px;
+}
+.card5 .card-image{
+margin-left: 38px;
+}
+.card5 .card__header{
+  margin-left: 1px;
+}
+.card5 .card__discription{
+margin-left: 1px;
+}
+
+.card6 {
+  max-width: 266px;
+  margin-top:99px ;
+}
+.card6 .card-image{
+  margin-left: 30px;
+  margin-top: 1px;
+}
+.card5 .card__header{
+  margin-left:1px ;
+}
+.card-dicoration{
+  margin-right: 100px;
+}
+.card-dicoration:nth-child(3n){
+  margin-right: 0;
+}
+.card-image{
+  margin:0 auto;
+}
+.card__header {
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  font-weight: bold;
+  color: #7050E5;
+  text-transform: uppercase;
+  margin-top: 28px;
+  line-height: 20px;
+}
+.card__discription {
+  font-size: 15px;
+  letter-spacing: -0.008em;
+  font-weight: 400;
+  line-height: 19px;
+  color:#878787;
+  margin-top: 8px;
+}
+/* -------------------------------------- */
+.main__aboutProducte {
+  
+}
+.aboutProducte__discription {
+}
+.aboutProducte__video {
 }
