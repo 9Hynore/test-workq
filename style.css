@@ -659,7 +659,7 @@ margin-bottom: 29px;
 .input_decotation{ 
   overflow: hidden;
 }
-.input_decotation::after{
+.input_decoration::after{
 content: "";
 position: absolute;
 width: 747px;
