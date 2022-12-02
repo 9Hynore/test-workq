@@ -655,11 +655,12 @@ margin-bottom: 29px;
   width: 100%;
   background: #232323;
   color: #fff;
-}
-.input_decotation{ 
+  position: relative;
   overflow: hidden;
+  z-index: -1;
 }
-.input_decoration::after{
+
+.input_decoration:after{
 content: "";
 position: absolute;
 width: 747px;
@@ -668,12 +669,22 @@ background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
 opacity: 0.33;
 filter: blur(125px);
 border-radius: 373.431px;
-transform: rotate(-122.79deg) translate(339px,56px);
+transform: rotate(-122.79deg) translate(620px,74px);
+z-index: -2;
 }
 
-/* ::before{
-  content: "";
-} */
+.input_decoration::before{
+content: "";
+position: absolute;
+width: 472px;
+height: 478px;
+background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+opacity: 0.3;
+filter: blur(125px);
+border-radius: 236.048px;
+transform: rotate(5.78deg) translate(800px,120px);
+z-index: -2;
+}
 
 .input__conteiner{
   max-width: 1326px; 
@@ -682,22 +693,24 @@ transform: rotate(-122.79deg) translate(339px,56px);
   justify-content: space-between; 
   margin: 0 auto;
   padding-top: 119px;
+  padding-bottom: 120px;
 }
-.inputDiscription{
-  
-}
+
 .inputDiscription h2{
   font-size: 55px;
   line-height: 55px;
   font-weight: 700;
   padding-top: 9px;
   margin-left: 63px;
+  z-index: 1;
+ 
 }
 
 .inputForm {
 max-width: 675px;
 width: 100%;
 }
+
 .inputForm h3{
   font-size: 28px;
   letter-spacing: -0.02666em;
@@ -720,10 +733,12 @@ width: 100%;
   width: 307px;
   
 }
+
 .input_lastName input{
    width: 314px;
   height: 41px;
 }
+
 .input_lastName p{
   padding-bottom: 5px;
   padding-left: 5px;
@@ -739,10 +754,12 @@ width: 100%;
   width: 640px;
   padding-top: 29px;
 }
+
 .input_email input{
 width: 640px;
 height: 41px;
 }
+
 .input_textarea {
   padding-top: 29px;
   padding-bottom: 32px;
@@ -813,4 +830,25 @@ opacity: 0.5;
 line-height: 7px;
 align-items: center;
 letter-spacing: -0.01rem;
+}
+/* -------------------------------------- */
+.empty_block{
+  padding-top: 97px;
+}
+/* -------------------------------------- */
+.footer { 
+}
+.footer__top {
+}
+.twitter__feed {
+}
+.page__links {
+}
+.nav {
+}
+.links {
+}
+.contact {
+}
+.footer_bottom {
 }
