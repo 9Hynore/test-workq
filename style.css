@@ -408,15 +408,15 @@ padding-top: 7px;
 /* -------------------------------------- */
 
 .achievements {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 134px;
-  max-width: 912px;
-  width: 100%;
-  margin: 0 auto;
-  color: #7050E5;
-  padding-bottom: 131px;
-  flex-wrap: wrap;
+display: flex;
+justify-content: space-between;
+padding-top: 134px;
+max-width: 912px;
+width: 100%;
+margin: 0 auto;
+color: #7050E5;
+padding-bottom: 131px;
+flex-wrap: wrap;
 }
 
 .achievements h1{
@@ -424,10 +424,12 @@ padding-top: 7px;
   line-height: 68px;
   text-align: center;
 }
+
 .achievements div:nth-child(1){
-  max-width:257px ;
-  width: 100%;
-  }
+max-width:257px ;
+width: 100%;
+}
+
 .achievements div:nth-child(2){
 max-width: 213px;
 width: 100%;
@@ -438,7 +440,8 @@ margin-right: -3px;
   margin-right: 11px;
   max-width: 249px;
   width: 100%;
-  }
+}
+
 .achievements p{
   font-weight: bold;
   font-size: 16px;
@@ -481,11 +484,13 @@ padding-right: 19px;
   max-width: 993px;
   margin: 0 auto;
 }
+
 .card1 {
   max-width: 271px;
   margin-top:71px ;
   justify-content: center;
 }
+
 .card1 .card-image{
  margin-left: 40px;
 }
@@ -494,43 +499,54 @@ padding-right: 19px;
   max-width: 241px;
   margin-top:71px ;
 }
+
 .card3 {
   max-width: 281px;
   margin-top:68px ;
 }
+
 .card3 .card-image{
   margin-left: 58px;
 }
+
 .card3 .card__header{
   margin-top: 27px;
 }
+
 .card4 {
   max-width: 271px;
   margin-top: 72px;
 
 }
+
 .card4 .card-image{
 margin-left: 59px;
 }
+
 .card4 .card__header{
 margin-top: 25px;
 margin-left: 3px;
 line-height: 20px;
 }
+
 .card4 .card__discription{
 margin-top: 6px;
 margin-left: 3px;
 }
+
 .card5 {
   max-width: 241px; 
   margin-top: 80px;
 }
+
 .card5 .card-image{
 margin-left: 38px;
 }
+
 .card5 .card__header{
   margin-left: 1px;
 }
+
 .card5 .card__discription{
 margin-left: 1px;
 }
@@ -539,22 +555,28 @@ margin-left: 1px;
   max-width: 266px;
   margin-top:99px ;
 }
+
 .card6 .card-image{
   margin-left: 30px;
   margin-top: 1px;
 }
+
 .card5 .card__header{
   margin-left:1px ;
 }
+
 .card-dicoration{
   margin-right: 100px;
 }
+
 .card-dicoration:nth-child(3n){
   margin-right: 0;
 }
+
 .card-image{
   margin:0 auto;
 }
+
 .card__header {
   font-size: 18px;
   letter-spacing: -0.02em;
@@ -564,6 +586,7 @@ margin-left: 1px;
   margin-top: 28px;
   line-height: 20px;
 }
+
 .card__discription {
   font-size: 15px;
   letter-spacing: -0.008em;
@@ -582,18 +605,21 @@ margin-left: 1px;
   margin: 0 auto;
   justify-content: space-between;
 }
+
 .aboutProducte__discription{
   padding-top: 95px;
   margin-left: 23px;
   max-width: 455px;
   width: 100%;
 }
+
 .aboutProducte__discription h2{
 font-size: 40px;
 line-height: 55px;
 color: #7050E5;
 padding-bottom: 7px;
 }
+
 .aboutProducte__discription p{
 letter-spacing: -0.02em;
 line-height: 21px;
@@ -601,6 +627,7 @@ font-size: 15px;
 color: #878787;
 margin-bottom: 29px;
 }
+
 .button__info{
   outline: none;
   text-decoration: none;
@@ -616,6 +643,7 @@ margin-bottom: 29px;
   border: 0;
   cursor: pointer;
 }
+
 .aboutProducte__video{
   position: relative;
 }
@@ -626,6 +654,7 @@ margin-bottom: 29px;
   top: 38.8%;
   left: 44.8%;
 }
+
 .video_block{
   font-family: 'Raleway', sans-serif;
 }
@@ -636,6 +665,7 @@ margin-bottom: 29px;
  text-transform: uppercase;
   color: #fff;
 }
+
 .video_feature {
   font-size: 15px;
   top: 62%;
@@ -643,6 +673,7 @@ margin-bottom: 29px;
   font-weight: 600;
   line-height: 20px;
 }
+
 .video_connected {
   font-size: 32px;
   line-height: 38px;
@@ -837,18 +868,291 @@ letter-spacing: -0.01rem;
 }
 /* -------------------------------------- */
 .footer { 
+  background: #363636;
+  color: #ffffff;
 }
 .footer__top {
+ display: flex;
+ justify-content: center;
+ width: 100%;
 }
-.twitter__feed {
+.content__footer{
+   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 55px;
+  max-width: 1262px;
+  width: 100%;
+  padding-bottom: 49px;
 }
+
+.twitter__block {
+  max-width: 299px;
+  width: 100%;
+  min-height: 295px;
+  background: white;
+  margin-left: 109px;
+  margin-top: 1px;
+}
+.twitter__block .hat{
+  width: 100%;
+  background: #7050E5;
+  height: 60px;
+}
+
+.hat{
+  display: flex;
+}
+
+.hat__twitter__logo{
+  width: 59px;
+  height: 60px;
+  background: #5634D1;
+}
+
+.hat__twitter__logo img{
+  margin:18% auto;
+}
+
+.hat__twitter__feed{
+  flex-direction: column;
+  align-self: center;
+  padding-left: 16px;
+}
+
+.hat__twitter__feed p:nth-child(1){
+font-size: 22px;
+line-height: 18px;
+letter-spacing: 0.008em;
+font-weight: 600;
+padding-bottom: 1px;
+}
+
+.hat__twitter__feed p:last-child{
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.008em;
+  font-weight: 400;
+}
+.twitter__block__info div{
+    padding-left: 31px;
+}
+.info1{
+   
+    padding-top: 21px;
+}
+
+.info1 .comment{
+    font-size: 13px;
+    letter-spacing: -0.02em;
+    color: #999999;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.info1 a{ 
+    display: block;
+    color: #7050E5;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 1px;
+}
+  
+.info1 .time{
+    color: #555555;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    padding-top: 3px;
+}
+.info2{
+    padding-top: 16px;
+}
+
+.info2 .comment{
+    font-size: 13px;
+    letter-spacing: -0.02em;
+    color: #999999;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.info2 a{
+    display: block;
+    color: #7050E5;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 1px;
+}
+  
+.info2 .time{
+    color: #555555;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    padding-top: 4px;
+}
+
+.info3{
+    display: flex;
+    padding-top: 16px;
+    flex-wrap: wrap;
+}
+
+.info3 .comment{
+    font-size: 13px;
+    letter-spacing: -0.02em;
+    color: #999999;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.info3 a{
+    padding-left: 5px;
+    display: block;
+    color: #7050E5;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+}
+  
+.info3 .time{
+    color: #555555;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    padding-top: 5px;
+}
+
 .page__links {
+  display: flex;
+  max-width: 734px;
+  width: 100%;
+  justify-content: space-between;
 }
-.nav {
+
+.footer__item__top{
+  display:inline ;
+  width: 17.5px;
+  height: 20px;
+  margin-right: 8px;
 }
+
+.footer__link{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.nav{
+max-width: 110px;
+width: 100%;
+}
+
+.nav h3{
+  display: flex;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FF8B00;
+}
+
+.nav ul{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  height: 164px;
+  justify-content: space-between;
+}
+
 .links {
+  max-width: 151px;
+ width: 100%;
 }
-.contact {
+
+.links h3{
+  display: flex;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FF8B00;
+}
+
+.links ul{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none; 
+  height: 108px;
+  justify-content: space-between;
+}
+
+.contact{
+  max-width: 209px;
+  width: 100%;
+}
+
+.contact h3{
+    display: flex;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FF8B00;
+}
+
+.phone{
+  padding-top: 16px;
+}
+
+.phone a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  white-space: pre;
+}
+
+.email{
+padding-top: 2px;
+}
+
+.email a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  white-space: pre;
+}
+
+.footer__logo{
+  padding-right: 32px;
+  padding-bottom: 32px;
+  display: flex;
+  align-items: flex-end;
 }
 .footer_bottom {
+  background:#202020 ; 
+  display: flex;
+  justify-content: center;
+}
+
+.footer__item__bottom{
+  display:inline-block;
+  padding-top: 1px;
+
+}
+
+.copyright{
+font-family: 'Raleway';
+font-size: 10px;
+line-height: 20px;
+font-weight: 500;
+padding-top: 2px;
 }
