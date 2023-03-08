@@ -125,7 +125,7 @@ body {
 .header__menu {
   justify-content: flex-end;
   padding-top: 15px;
-  max-width: 576px;
+  max-width: 330px;
   width: 100%;
 }
 
@@ -157,9 +157,10 @@ body {
   padding-left: 3px;
 }
 
-.icon__menu {
-  display: none;
+.header__menu.active{
+  display: block;
 }
+
 
 @media (max-width:1440px) {
   .mobile__conteiner {
@@ -199,7 +200,6 @@ body {
   }
 
   .menu__body {
-    display: none;
     position: fixed;
     top: 0;
     left: 0;

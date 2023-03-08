@@ -1,7 +1,8 @@
-let menuBtn = querySelector("#icon__menu");
-let menu = querySelector('.menu__body');
-menuBtn.addEventListener('click', function(){
+const menuBtn = document.querySelector('.icon__menu');
+const menu = document.querySelector('.header__menu');
+
+
+menuBtn.addEventListener('click', () =>{
 	menu.classList.toggle('active');
 })
 
-console.log(работает);
