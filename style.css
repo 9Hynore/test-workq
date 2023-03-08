@@ -180,7 +180,7 @@ body {
     margin: 28px 7px 0px 0px;
     cursor: pointer;
   }
-
+  
   .icon__menu::after,
   .icon__menu::before {
     content: "";
