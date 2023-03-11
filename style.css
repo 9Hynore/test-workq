@@ -98,6 +98,9 @@ body {
   max-width: 1600px;
   margin: 0 auto;
 }
+body.active{
+  overflow: hidden;
+}
 
 .wrapper {
   overflow: hidden;
